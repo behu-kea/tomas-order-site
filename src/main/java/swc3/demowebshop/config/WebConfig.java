@@ -14,9 +14,11 @@ public class WebConfig implements WebMvcConfigurer {
                 .addMapping("/**")
                 .allowedOrigins(
                         "http://localhost:5500",
+                        "http://127.0.0.1:5500",
                         "https://behu-kea.github.io/fullstact-frontend",
                         "https://behu-kea.github.io",
-                        "https://swc3-react-frontend.herokuapp.com")
+                        "https://swc3-react-frontend.herokuapp.com",
+                        "https://behu-kea.github.io/fullstact-frontend/#/fullstact-frontend")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH")
                 .allowCredentials(true)
                 .maxAge(3600); //1 hour
