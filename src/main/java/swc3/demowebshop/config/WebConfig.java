@@ -18,7 +18,7 @@ public class WebConfig implements WebMvcConfigurer {
                         "https://behu-kea.github.io/fullstact-frontend/*",
                         "https://behu-kea.github.io",
                         "https://swc3-react-frontend.herokuapp.com",
-                        "flawless-branch.surge.sh")
+                        "https://flawless-branch.surge.sh")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH")
                 .allowCredentials(true)
                 .maxAge(3600); //1 hour
