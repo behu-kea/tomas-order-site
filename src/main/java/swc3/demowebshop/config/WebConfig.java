@@ -17,7 +17,8 @@ public class WebConfig implements WebMvcConfigurer {
                         "http://127.0.0.1:5500",
                         "https://behu-kea.github.io/fullstact-frontend/*",
                         "https://behu-kea.github.io",
-                        "https://swc3-react-frontend.herokuapp.com")
+                        "https://swc3-react-frontend.herokuapp.com",
+                        "https://roomy-fact.surge.sh/")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "PATCH")
                 .allowCredentials(true)
                 .maxAge(3600); //1 hour
